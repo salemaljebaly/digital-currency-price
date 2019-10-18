@@ -1,0 +1,36 @@
+<resources>
+
+    <string name="app_name">Digital currency price</string>
+    <!--components name -->
+    <string name="Price">Price : </string>
+    <string name="PriceIn_BTC">Price in BTC :</string>
+    <string name="Market_Cap">Market Cap</string>
+    <string name="Circulation_Supply">Circulation Supply</string>
+    <string name="_24H_Volume">24H Volume</string>
+    <string name="Percent_Change1H">Percent_Change (1H) : </string>
+    <string name="Percent_Change24H">Percent_Change (24H) : </string>
+    <string name="Percent_Change7D">Percent_Change (7D) : </string>
+    <string name="last_updated">Last Update :</string>
+    <!-- Alert Message -->
+    <string name="alert_title">No internet connection</string>
+    <string name="alert_msg">Please check your internet connection and try again </string>
+
+
+    <string name="about">about</string>
+    <string name="close">close</string>
+    <string name="version"> (1.0) </string>
+    <string name="versionLG">version </string>
+    <string name="aboutDesc">digital currency prices is very simple app to know crypt currency prices
+        at real time in dollar and BTC , you can knowledge percentage change in 1 hour , 24 hour ,1 week
+        and more ...
+        this app is very simple and clean
+
+        Data sourse : coinmarketcap.com
+    </string>
+    <string name="developer">Developed by Salem Aljebaly</string>
+    <string name="developer_url">https://play.google.com/store/apps/developer?id=salem+abdulla</string>
+    <string name="developer_email">salemaljebaly@gmail.com</string>
+    <string name="app_url">https://play.google.com/store/apps/details?id=com.digital.currency.price</string>
+    <string name="logo">logo</string>
+    <string name="google_play_icon">google play icon</string>
+</resources>

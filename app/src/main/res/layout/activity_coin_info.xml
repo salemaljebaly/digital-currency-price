@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.digital.currency.price.coin_info">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/coinImageInfo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/btc"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:id="@+id/fullNameInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bitcoin"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!-- Coin Price in USD-->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:background="@color/colorPrimary">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="2"
+                        android:padding="8dp"
+                        android:text="@string/Price"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/coinPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        android:text="0.0"
+                        android:textColor="#FFFFFF" />
+                </TableRow>
+                <!-- Coin Price in BTC -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:background="@color/colorPrimary">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="2"
+                        android:padding="8dp"
+                        android:text="@string/PriceIn_BTC"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/coinPriceBTC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        android:text="0.0"
+                        android:textColor="#FFFFFF" />
+                </TableRow>
+                <!-- Market_Cap  -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:background="@color/colorPrimary">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="2"
+                        android:padding="8dp"
+                        android:text="@string/Market_Cap"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/Market_Cap"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        android:text="0.0"
+                        android:textColor="#FFFFFF" />
+                </TableRow>
+                <!-- Circulation_Supply  -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:background="@color/colorPrimary">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="2"
+                        android:padding="8dp"
+                        android:text="@string/Circulation_Supply"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/Circulation_Supply"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        android:text="0.0"
+                        android:textColor="#FFFFFF" />
+                </TableRow>
+                <!-- _24H_Volume  -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:background="@color/colorPrimary">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="2"
+                        android:padding="8dp"
+                        android:text="@string/_24H_Volume"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/_24H_Volume"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        android:text="0.0"
+                        android:textColor="#FFFFFF" />
+                </TableRow>
+                <!-- Percent_Change1H  -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:background="@color/colorPrimary">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="2"
+                        android:padding="8dp"
+                        android:text="@string/Percent_Change1H"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/Percent_Change1H"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        android:text="0.0"
+                        android:textColor="#FFFFFF" />
+                </TableRow>
+                <!-- Percent_Change24H  -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:background="@color/colorPrimary">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="2"
+                        android:padding="8dp"
+                        android:text="@string/Percent_Change24H"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/Percent_Change24H"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        android:text="0.0"
+                        android:textColor="#FFFFFF" />
+                </TableRow>
+                <!-- Percent_Change7D  -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:background="@color/colorPrimary">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="2"
+                        android:padding="8dp"
+                        android:text="@string/Percent_Change7D"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/Percent_Change7D"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        android:text="0.0"
+                        android:textColor="#FFFFFF" />
+                </TableRow>
+            </TableLayout>
+        </ScrollView>
+    </LinearLayout>
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/aviProgress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:indicatorName="BallScaleMultipleIndicator"
+        app:indicatorColor="@color/colorPrimary"
+        android:background="#FFFFFF" />
+</RelativeLayout>

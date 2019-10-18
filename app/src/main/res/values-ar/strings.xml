@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">أسعار العملات الرقمية</string>
+    <string name="Price">السعر :</string>
+    <string name="Market_Cap">سقف السوق :</string>
+    <string name="_24H_Volume">الحجم الكلي لـ 24 ساعة :</string>
+    <string name="Percent_Change1H">نسبة التغير في الساعة :</string>
+    <string name="Percent_Change24H">نسبة التغير في اليوم :</string>
+    <string name="Circulation_Supply">معدل التداول :</string>
+    <string name="last_updated">أخر تحديث :</string>
+    <string name="PriceIn_BTC">السعر بالبتكوين :</string>
+    <string name="Percent_Change7D">نسبة التغير لاخر اسبوع :</string>
+    <string name="alert_title">لايوجد انترنت</string>
+    <string name="alert_msg">من فضلك تحقق من الأنترنت وحاول مجددا</string>
+    <string name="about">حول التطبيق</string>
+    <string name="close">رجوع</string>
+    <string name="version">" (1.0) "</string>
+    <string name="versionLG">اصدار</string>
+    <string name="developer">المطور : سالم الجبالي</string>
+    <string name="aboutDesc">"تطبيق أسعار العملات الرقمية بسيط جدا ويمكنك من معرفة أسعار العملات الرقمية في الوقت الحقيقي بالدولا والبتكوين ويمكنك أيضا من معرفة نسبة تغير العملة في  الساعة و اليوم والأسبوع و أكثر .. هذا التطبيق سهل التعامل وواضح المعالم  ..   مصدر البيانات : coinmarketcap.com "</string>
+</resources>
